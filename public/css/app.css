@@ -1,0 +1,86 @@
+:root{
+    --primary : #10316b;
+    --secondary : #a6acec;
+    --success: #00fff0;
+    --warning: #eac100;
+    --purple: #775ada;
+    --navbar: #00453C;
+    --link: #c6e872;
+    --brand: #fbffa3;
+}
+
+.navbar{
+    background-color: var(--navbar) !important;
+}
+
+.navbar-brand{
+    color: var(--brand) !important;
+    font-size: 26px !important;
+}
+
+.nav-link, .navbar-toggler, .dropdown-toggle{
+    color: var(--link) !important;
+}
+
+.auth{
+    color: var(--navbar) !important;
+}
+
+.customButton{
+    background-color: var(--primary) !important;
+    color: var(--success) !important;
+}
+
+.customHeader{
+    background-color: var(--primary) !important;
+    color: var(--success);
+}
+
+.customNote, ::placeholder{
+    color: var(--secondary) !important;
+}
+
+.form-label{
+    color: var(--secondary) !important;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: #e2f3f5;
+}
+
+input, textarea, .selectBox{
+    color: var(--purple) !important;
+}
+
+thead tr th{
+    color: #F9F871 !important;
+}
+
+tbody{
+    color: #6C8EDC;
+}
+
+.adminBody{
+    background-color: #354A53;
+}
+
+tr:hover{
+    color: chartreuse !important;
+}
+
+.list-group-item i{
+    color: #005240;
+}
+
+/* .list-group-item a:active{
+    color: var(--warning);
+} */
+
+.list-group-item a:visited{
+    color: blue;
+}
+
+.adminThead{
+    background-color: #2E6F76;
+}
